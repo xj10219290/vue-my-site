@@ -1,0 +1,75 @@
+@import './var.less';
+
+html {
+    color: @words;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow: hidden;
+}
+
+body {
+    overflow: hidden;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color:inherit;
+    &:hover {
+        color: @primary
+    }
+}
+
+ @font-face {
+  font-family: "iconfont";
+  src: url('//at.alicdn.com/t/c/font_4931503_inmt03vm8ms.woff2?t=1748155749806') format('woff2'),
+       url('//at.alicdn.com/t/c/font_4931503_inmt03vm8ms.woff?t=1748155749806') format('woff'),
+       url('//at.alicdn.com/t/c/font_4931503_inmt03vm8ms.ttf?t=1748155749806') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-iconfonticonzhuye:before {
+  content: "\e624";
+}
+
+.icon-iconblog:before {
+  content: "\e618";
+}
+
+.icon-icon-icon-cuowu:before {
+  content: "\e619";
+}
+
+.icon-icon_empty:before {
+  content: "\e69e";
+}
+
+.icon-icon_jinggao:before {
+  content: "\e642";
+}
+
+.icon-icon_liuyan:before {
+  content: "\e648";
+}
+
+.icon-icon-xinxi:before {
+  content: "\e647";
+}
+
+.icon-icon_code:before {
+  content: "\e68d";
+}
+
+.icon-icon_guanbi:before {
+  content: "\e60d";
+}
+
+.icon-icon-zhengque:before {
+  content: "\e614";
+}
